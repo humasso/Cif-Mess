@@ -1,5 +1,5 @@
 <div *ngFor="let message of messageList">
-
+{{message}}
 </div>
 
 <input  (keyup)="$event.keyCode == 13 && sendMessage(message)" #message/>
